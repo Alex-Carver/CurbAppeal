@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Montserrat&display=swap');
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Hind', sans-serif;*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+	background-color: #000;
+	position: relative;
+    overflow-y: auto;
+    padding-top: 65px; /* padding for fixed navbar */
+}
+
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 2px solid #20FAAC;
+    max-width: 25%;
+    margin-left: 0;
+}
+
+hr.center{
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    border: 2px solid #20FAAC;
+    max-width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.insta{
+	  color: #20FAAC;
+	  text-decoration: none;
+}
+
+.insta:hover{
+	  color: #fff;
+	  text-decoration: none;
+}
+
+.icon{
+	color:#fff;
+}
+
+i{
+	padding-right: 5px;
+}
+
+.logo{
+	width:60%;
+	height: 90px;
+}
+.curb{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size:120px;
+	color: #fff;
+}
+
+h1.display-1{
+	font-family: 'Hind', sans-serif;
+	font-weight: 600;
+	font-size: 120px;
+	color: #fff;
+}
+
+h2.display-2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size:32px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+h3.display-3{
+	font-family: "Hind", sans-serif;
+	font-weight: 600;
+	font-size:35px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+h6{
+	font-family: "Hind", sans-serif;
+	font-weight: 600;
+	font-size:20px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size:16px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size:20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #20FAAC;
+    font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size:20px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #20FAAC;
+     font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size:20px;
+}
+
+.fixed-top.scrolled {
+  background-color: #000!important;
+  transition: background-color 600ms linear;
+}
+
+button:clicked{
+		background-color:#20FAAC;
+ 	border-color: #20FAAC;
+ 	color: #000;
+}
+
+.btn-primary{
+ 	background-color:#20FAAC;
+ 	border-color: #20FAAC;
+ 	color: #000;
+ }
+
+ .btn-primary:hover{
+ 	background-color:#20FAAC;
+ 	border-color: #fff;
+ 		color: #000;
+ }
+
+
+
+.bg-light{
+	background-color: transparent!important;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: transparent;
+}
+
+header{
+	background-image: url('./imgs/hero.png');
+	background-size: 100%;
+	height: 100vh;
+	width: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.jumbotron-fluid{
+	background:transparent;
+	height:100%;
+    width:100%;
+
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+/*Body*/
+
+section{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	width:100%;
+}
+
+#section4{
+	background-image: url('./imgs/parallax.jpg');
+	background-size: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+		background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.bg-dark{
+	background-color: rgba(0,0,0,.6)!important;
+}
+
+.list{
+	color:#fff;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left:0px;
+	padding-right: 0px;
+}
+
+.list ul{
+		padding-left:0px;
+	padding-right: 0px;
+}
+
+.list ul li{
+	text-decoration: none;
+	list-style-type: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer{
+	background-color: #000;
+	padding-top:80px;
+	padding-bottom:80px;
+}
+
+  .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(32, 250, 172, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(32, 250, 172);
+} 
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.curb{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size:60px;
+	color: #fff;
+}
+
+h1.display-1{
+	font-family: 'Hind', sans-serif;
+	font-weight: 600;
+	font-size: 60px;
+	color: #fff;
+}
+
+header{
+	background-image: url('./imgs/hero.png');
+	background-size: 100%;
+	height: 100vh;
+	width: 100%;
+	background-attachment: none;
+	background-repeat: no-repeat;
+}
+
+.padding{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	body{
+		padding-top:0px;
+	}
+
+	.logo{
+	width:40%;
+	height: 60px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(32, 250, 172, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(32, 250, 172);
+} 
+
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    max-width: 250px;
+}
+
+button:focus {
+    outline: 1px solid;
+    outline: 5px rgb(32, 250, 172);
+}
+
+header{
+	background-image: url('./imgs/cSmall.png');
+	background-size: 100%;
+	height: 100vh;
+	width: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+ #pushContent {
+    height: 350px;
+    width:100%;
+    display: none;
+    }
+
+    #section4{
+	background-image: url('./imgs/pSmall.jpg');
+	background-size: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+ }
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.padding{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	 #pushContent {
+    height: 350px;
+    width:100%;
+    display: none;
+    }
+
+    .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(32, 250, 172, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(32, 250, 172);
+} 
+
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    max-width: 250px;
+}
+
+
+button:focus {
+    outline: 1px solid;
+    outline: 5px rgb(32, 250, 172);
+}
+
+   #section4{
+	background-image: url('./imgs/pSmall.jpg');
+	background-size: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header{
+	background-image: url('./imgs/cSmall.png');
+	background-size: 100%;
+	height: 100vh;
+	width: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+
+}
+
+
+
+
+
+
+
